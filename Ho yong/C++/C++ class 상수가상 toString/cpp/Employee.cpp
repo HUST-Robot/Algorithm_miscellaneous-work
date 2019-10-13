@@ -13,5 +13,5 @@ Employee::Employee(string office, const long salary, const int hired) :Person(na
 void Employee::toString()
 {
 	cout << "Employee class ";
-	cout << "성함 : " << name << " " << "사무실 명 : " << office << endl;
+	cout << "Naem : " << name << " " << "office Name : " << office << endl;
 }
