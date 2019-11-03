@@ -7,7 +7,7 @@ Algorithm and miscellaneous work
 
 # C++ Call by value, address, reference 정리
 [C++ Call by value, address, reference 정리](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/2)
-
+[C++ h파일관리하는 방법](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/6)
 # Rule
 1. commit 하기전에 pull 하기 
 
