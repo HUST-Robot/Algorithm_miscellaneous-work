@@ -1,5 +1,6 @@
 # 휴스타 로봇 1기 교육내용 정리 및 스터디 
 
+![캡처](https://user-images.githubusercontent.com/9815703/68393016-6776d600-01ae-11ea-92a4-02d38d5768d1.PNG)
 
 ## git-usage
 
