@@ -23,7 +23,7 @@
 ### 휴스타 월말 평가 과제
 #### ANSYS 
  - [ANSYS 과제 설명 및 문제 정의](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/blob/master/Ho%20yong/ANSYS/README.md)
- - [ANSYS 실습 과제.pptx](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/blob/master/Ho%20yong/ANSYS/KHY_ANSYS%20실습%20해석%20과제.pptx)
+ - [ANSYS 실습 과제.pptx](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/raw/master/Ho%20yong/ANSYS/KHY_ANSYS%20%EC%8B%A4%EC%8A%B5%20%ED%95%B4%EC%84%9D%20%EA%B3%BC%EC%A0%9C.pptx)
 
 #### AI 
  
