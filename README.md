@@ -6,8 +6,8 @@
 
 [사용방법](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/1) 
 
-### 휴스타 로봇 1기 교육 내용, 과제 정리
-## C++ 정리
+## 휴스타 로봇 1기 교육 내용, 과제 정리
+### C++ 정리
 [C++ Call by value, address, reference 정리](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/2)
 
 [C++ h파일관리하는 방법](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/6)
