@@ -1,26 +1,30 @@
 # Algorithm Miscellaneous Work
 
-1.ÀÚ·á±¸Á¶ 2Àå ´ÙÇ×½Ä µ¡¼À ÄÚµå ±¸Çö 
-´ÙÇ×½Ä Ç¥Çö 3 ¹æ½ÄÀ» ÀÌ¿ë ( 0ÀÌ ¾Æ´Ñ Ç×¸¸À» ÀúÀå)
-¸ðµç ´ÙÇ×½ÄÀº ¹è¿­ termArray¸¦ ÀÌ¿ëÇØ Ç¥Çö 
+1.ìžë£Œêµ¬ì¡° 2ìž¥ ë‹¤í•­ì‹ ë§ì…ˆ ì½”ë“œ êµ¬í˜„ 
+ë‹¤í•­ì‹ í‘œí˜„ 3 ë°©ì‹ì„ ì´ìš© ( 0ì´ ì•„ë‹Œ í•­ë§Œì„ ì €ìž¥)
+ëª¨ë“  ë‹¤í•­ì‹ì€ ë°°ì—´ termArrayë¥¼ ì´ìš©í•´ í‘œí˜„ 
 ```
-°è¼ö°¡ 0ÀÌ ¾Æ´Ñ Ç×¸¸ ÀúÀå.
-termArrayÀÇ °¢ ¿ø¼Ò´Â term Å¸ÀÔ
-```
-
-```
-ÇÔ¼öAdd: a(x)(*this)¿Íb(x)¸¦Ç×º°·Î´õÇÏ¿©c(x)¸¦¸¸µå´ÂÇÔ¼ö
-PolynomicalÀÇµðÆúÆ®»ý¼ºÀÚ°¡capacity¿Íterms¸¦1·ÎÃÊ±âÈ­ÇÏ°ítermArrayÀÇÅ©±â¸¦1·ÎÃÊ±âÈ­ÇÏ´Â°ÍÀ»°¡Á¤
-newTermÀ»ÅëÇØ¼­termArrayÀÇÅ©±â°¡ºÎÁ·ÇÏ¸écapacity¸¦2¹è·ÎÁõ°¡
-ÀÓ½Ã°ø°£¿¡2¹è°ø°£À»ÇÒ´çÇÏ°í,±âÁ¸termArrayÀÇ°ªÀ»º¹»çÇÏ°í,
-termArrayÀÇ°ø°£À»ÇØÁ¦ÇÏ°í,ÀÓ½Ã°ø°£À»termArray·Îº¯°æ
+ê³„ìˆ˜ê°€ 0ì´ ì•„ë‹Œ í•­ë§Œ ì €ìž¥.
+termArrayì˜ ê° ì›ì†ŒëŠ” term íƒ€ìž…
 ```
 
 ```
-Add ºÐ¼® 
-a ¿Í b¿¡¼­ÀÇ 0ÀÌ ¾Æ´Ñ Ç×ÀÇ ¼ö (m,n)·Î ºÐ¼®
-ÀüÃ¼ ½Ã°£ 0(m+n)
- - ¹è¿­ À» µÎ¹è·Î ´Ã¸® °ÍÀº AddÀÇ ÀüÃ¼  ½ÇÇà ½Ã°£¿¡ ´ëÇØ ±â²¯ÇØ¾ß »ó¼ö ½ÂÀÇ ¿µÇâÀ» ÁÜ 
-   Áï ¹è¿­ µÎ¹è È®ÀåÀº Add ÀüÃ¼ ½ÇÇà ½Ã°£ÀÌ ¾ÆÁÖ ÀÛÀº ºÎºÐÀÌ µÊ 
- - ³»¸²Â÷¼ø Á¤·ÄÀÌ ¾Æ´Ï¶ó¸é O(m*n) / µ¿Àû¹è¿­ Á¤Àû ¹è¿­ Ç¥Çö½Ã ½ÇÇà ½Ã°£ O(maxDegree)
+í•¨ìˆ˜Add: a(x)(*this)ì™€b(x)ë¥¼í•­ë³„ë¡œë”í•˜ì—¬c(x)ë¥¼ë§Œë“œëŠ”í•¨ìˆ˜
+Polynomicalì˜ë””í´íŠ¸ìƒì„±ìžê°€capacityì™€termsë¥¼1ë¡œì´ˆê¸°í™”í•˜ê³ termArrayì˜í¬ê¸°ë¥¼1ë¡œì´ˆê¸°í™”í•˜ëŠ”ê²ƒì„ê°€ì •
+newTermì„í†µí•´ì„œtermArrayì˜í¬ê¸°ê°€ë¶€ì¡±í•˜ë©´capacityë¥¼2ë°°ë¡œì¦ê°€
+ìž„ì‹œê³µê°„ì—2ë°°ê³µê°„ì„í• ë‹¹í•˜ê³ ,ê¸°ì¡´termArrayì˜ê°’ì„ë³µì‚¬í•˜ê³ ,
+termArrayì˜ê³µê°„ì„í•´ì œí•˜ê³ ,ìž„ì‹œê³µê°„ì„termArrayë¡œë³€ê²½
 ```
+
+```
+Add ë¶„ì„ 
+a ì™€ bì—ì„œì˜ 0ì´ ì•„ë‹Œ í•­ì˜ ìˆ˜ (m,n)ë¡œ ë¶„ì„
+ì „ì²´ ì‹œê°„ 0(m+n)
+ - ë°°ì—´ ì„ ë‘ë°°ë¡œ ëŠ˜ë¦¬ ê²ƒì€ Addì˜ ì „ì²´  ì‹¤í–‰ ì‹œê°„ì— ëŒ€í•´ ê¸°ê»í•´ì•¼ ìƒìˆ˜ ìŠ¹ì˜ ì˜í–¥ì„ ì¤Œ 
+   ì¦‰ ë°°ì—´ ë‘ë°° í™•ìž¥ì€ Add ì „ì²´ ì‹¤í–‰ ì‹œê°„ì´ ì•„ì£¼ ìž‘ì€ ë¶€ë¶„ì´ ë¨ 
+ - ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬ì´ ì•„ë‹ˆë¼ë©´ O(m*n) / ë™ì ë°°ì—´ ì •ì  ë°°ì—´ í‘œí˜„ì‹œ ì‹¤í–‰ ì‹œê°„ O(maxDegree)
+```
+
+
+### ì½”ë“œ ì‹¤í–‰ ê²°ê³¼
+![ìº¡ì²˜](https://user-images.githubusercontent.com/9815703/69913647-e5609100-147d-11ea-8f34-2dbb6573dfc4.PNG)
