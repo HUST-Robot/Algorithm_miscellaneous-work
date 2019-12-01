@@ -16,22 +16,22 @@
 
 ## Ho yong 스터디 및 휴스타 과제 정리
 
-## 스터디 자료 정리 
-### 자료구조 
+### 스터디 자료 정리 
+ 자료구조 
  - [2장 배열 다항식 덧셈 구현 부분 및 정리](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/tree/master/Ho%20yong/Data%20Structure/PolynomialAdd)
 
-## 휴스타 월말 평가 과제
-### ANSYS 
+### 휴스타 월말 평가 과제
+#### ANSYS 
  - [ANSYS 과제 설명 및 문제 정의](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/blob/master/Ho%20yong/ANSYS/README.md)
  - [ANSYS 실습 과제.pptx](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/blob/master/Ho%20yong/ANSYS/KHY_ANSYS%20실습%20해석%20과제.pptx)
 
-### AI 
+#### AI 
  
 ## Yougyeong 스터디 및 휴스타 과제 정리
-## 스터디 자료 정리 
+### 스터디 자료 정리 
 
 
-## 휴스타 월말 평가 과제
+### 휴스타 월말 평가 과제
 
 #### Rule
 1. commit 하기전에 pull 하기 
