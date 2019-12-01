@@ -6,20 +6,13 @@
 
 [사용방법](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/1) 
 
-### C++ 정리
+### 휴스타 로봇 1기 교육 내용, 과제 정리
+## C++ 정리
 [C++ Call by value, address, reference 정리](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/2)
 
 [C++ h파일관리하는 방법](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/6)
 
 [C++ 동적배열 정적배열 배열 복사 정리](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/issues/3)
-
-### 로봇 공학 정리 
-
-### 신뢰성 분석 및 평가 
-
-### 3차원 측정 및 역공학
-
-### 기구설계
 
 ## Ho yong 스터디 정리 
 ### 자료구조 
