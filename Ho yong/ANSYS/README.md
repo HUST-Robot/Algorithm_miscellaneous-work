@@ -5,7 +5,7 @@
 
 
 ## ANSYS 과제 치구 모델 구조 해석 
-```
+
 문제 정의 
 치구 모델에 – y 방향으로 5kgf 와 x 방향으로 5kgf 응력을 주었을 때 치구 모델의 응력 분포(최대, 최소) 와 변형량 분포(최대, 최소) , 최대전달응력(최대, 최소)를 알아보기
 
@@ -23,6 +23,5 @@
    Mash Defeature Size : Default
    Mash sizing Resolution = 6 설정
 
-```
 
 
