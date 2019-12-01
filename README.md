@@ -21,6 +21,14 @@
 
 ### 기구설계
 
+## Ho yong 스터디 정리 
+### 자료구조 
+ - [2장 배열 다항식 덧셈 구현 부분 및 정리](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/tree/master/Ho%20yong/Data%20Structure/PolynomialAdd)
+ 
+## Yougyeong 스터디 정리
+
+
+
 #### Rule
 1. commit 하기전에 pull 하기 
 
