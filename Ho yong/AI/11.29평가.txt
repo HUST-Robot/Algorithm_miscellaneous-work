@@ -1,0 +1,85 @@
+from  PIL import  Image
+import numpy as np
+import os
+import cv2
+
+#original_path = './rose/'
+#resized_path = "./resize_rose/"
+original_path = './chrysanthemum/'
+resized_path = "./resize_chrysanthemum/"
+
+
+file_list = os.listdir(original_path)
+img_list = []
+
+
+for item in file_list :
+    if item.find('.jpg' , '.jpeg' , '.png') is not -1 :
+        img_list.append(item)
+
+total_image = len(img_list)
+index = 0
+
+def identify():
+    n = np.eye(3,3)
+    return n
+
+def scaling(sx, sy):
+    sx, sy = 1/sx, 1/sy
+    n = identify()
+    n[0,0] = sx
+    n[1,1] = sy
+    return  n
+
+def translation(tx,ty):
+    tx, ty = -tx, -ty
+    n = identify()
+    n[0,2] = tx
+    n[1,2] = ty
+    return n
+
+for name in img_list :
+
+    im = Image.open('%s%s' % (original_path, name)).convert('RGB')
+    img_array = np.array(im)
+    w,h = im.size
+    re_wsc = 256/w
+    re_hsc = 256/h
+
+    if w>=h:
+        rescale = re_wsc
+
+    elif w < h:
+        rescale = re_hsc
+
+    #스케일링
+    n = scaling(rescale,rescale)
+
+    #자르기
+
+    if w>=h:
+        n = np.dot(scaling(rescale,rescale),translation(0, (256-h*rescale)/2))
+        n = n.reshape(9)[:6]
+        arose = im.transform(size=(im.width, im.height), method=Image.AFFINE, data=n)
+        #arose.show()
+
+        area = (0, 0, 256, 256)
+        cut_img = arose.crop(area)
+        #cut_img.show()
+        cut_img.save('%s%s'%(resized_path, name))
+        print(name + '   ' + str(index) + '/' + str(total_image))
+        index = index + 1
+	
+    elif w<h:
+        n = np.dot(scaling(rescale,rescale),translation((256-w*rescale)/2, 0))
+        n = n.reshape(9)[:6]
+        arose = im.transform(size=(im.width, im.height), method=Image.AFFINE, data=n)
+        #arose.show()
+
+        area = (0, 0, 256, 256) # 0 , 0 시작 끝점  사이즈 : 256 * 256
+        cut_img = arose.crop(area)
+        #cut_img.show()
+        cut_img.save('%s%s'%(resized_path, name))
+
+        print(name + '   ' + str(index) + '/' + str(total_image))
+        index = index + 1

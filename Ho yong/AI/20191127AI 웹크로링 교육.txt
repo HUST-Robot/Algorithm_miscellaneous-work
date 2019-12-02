@@ -1,0 +1,14 @@
+패키지 설치 목록 
+requests url 가저오는거 selenium : 웹브라우저 조작 기능 
+conda install requests selenium
+
+chrome web driver 
+https://chromedriver.chromium.org/downloads
+https://chromedriver.storage.googleapis.com/index.html?path=79.0.3945.36/
+
+
+https://blog.naver.com/stochastic73/221682782447 Selenium 무엇인가 
+win 32 다운로드 
+
+웹스크래핑 준비 완료 
+

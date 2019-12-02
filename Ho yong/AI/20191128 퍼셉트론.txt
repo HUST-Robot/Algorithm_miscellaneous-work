@@ -1,0 +1,48 @@
+머신 러닝 
+
+* 이미지 중점의 머신러닝 
+
+동물의 신경 세포 , 뉴런 
+ -> 자극의 전도와 전달 (전기신호를 이용)
+
+동물의 신경 세포를 모방한것이 퍼셉트론 
+
+x.1 입력 값 w1 가중치 (임의값) 합산 -> 비선형함수 - > 출력 (어떠한 무엇이나옴)
+
+h(x) = xw(가중치) +b(편향값) 단하나의 퍼셉트론 
+y = ax+b  
+
+단층 퍼셉트론 
+
+여러개의 인풋 + 여러개의 w 합을 합처서 -> 비선형함수 -> 출력 
+
+사전 설치 아나콘다-> conda install jupyter notebook
+
+jupyter notebook 한줄단위 테스트 
+
+로컬 환경 설정
+conda ?? ai
+conda install jupyter notebook
+
+
+v1.2.0
+Conda
+OSX
+# conda
+conda install pytorch==1.2.0 torchvision==0.4.0 -c pytorch
+Linux and Windows
+# CUDA 9.2
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=9.2 -c pytorch
+
+# CUDA 10.0
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+
+# CPU Only
+conda install pytorch==1.2.0 torchvision==0.4.0 cpuonly -c pytorch
+
+
+# CUDA 10.0
+conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+
+
+* Wx + b 하나의 퍼셉트론 
