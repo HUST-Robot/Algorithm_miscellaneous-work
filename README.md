@@ -25,13 +25,6 @@
  - [ANSYS 과제 설명 및 문제 정의](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/blob/master/Ho%20yong/ANSYS/README.md)
  - [ANSYS 실습 과제.pptx](https://github.com/HUST-Robot/Algorithm_miscellaneous-work/raw/master/Ho%20yong/ANSYS/KHY_ANSYS%20%EC%8B%A4%EC%8A%B5%20%ED%95%B4%EC%84%9D%20%EA%B3%BC%EC%A0%9C.pptx)
 
-#### AI 
- 
-## Yougyeong 스터디 및 휴스타 과제 정리
-### 스터디 자료 정리 
-
-
-### 휴스타 월말 평가 과제
 
 #### Rule
 1. commit 하기전에 pull 하기 
